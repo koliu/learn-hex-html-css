@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HTML、CSS教學</title>
+	<link rel="stylesheet" href="../css/meyer-reset.css">
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			font-family: 微軟正黑體, Arial;
+		}
+
+		.wrap {
+			width: 800px;
+			margin: 0 auto;
+		}
+
+		header {
+			background-color: red;
+			height: 80px;
+			margin-bottom: 1em;
+			padding: 10px 20px;
+		}
+
+		header .top-menu {
+			float: right;
+			font-size: small;
+			margin-top: 10px;
+		}
+
+		header .top-menu li {
+			display: inline;
+			margin-left: 10px;
+		}
+
+		header .top-menu li a {
+			text-decoration: none;
+			color: white;
+		}
+
+		main .menu {
+			width: 150px;
+			float: left;
+			background-color: black;
+			color: white;
+		}
+
+		main .content {
+			width: 560px;
+			height: 50px;
+			float: left;
+			background-color: pink;
+			margin: 0 10px;
+		}
+
+		main .aside {
+			width: 70px;
+			background-color: blue;
+			color: yellow;
+			float: right;
+			word-wrap: break-word;
+		}
+
+		.clearfix {
+			clear: both;
+		}
+
+		footer {
+			margin-top: 1em;
+			height: 20px;
+			background-color: gray;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<header>
+			<img src="../img/logo.png" alt="Hex School" class="logo">
+			<ul class="top-menu">
+				<li><a href="#">關於我們</a></li>
+				<li><a href="#">產品介紹</a></li>
+				<li><a href="#">Q&amp;A</a></li>
+			</ul>
+		</header>
+		<main>
+			<nav class="menu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ad ut vero. Iusto tempore eveniet laborum veniam quod, quas rerum temporibus quo et, sunt voluptates doloremque illo unde. Quia, aut.</nav>
+			<section class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In earum voluptates non. Explicabo sunt, inventore rem. Odit aliquid beatae ut, dolores est ex maiores odio, eaque, eum, molestias dolor fugiat!</section>
+			<aside class="aside">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe dignissimos illum dolorem! Debitis laborum.</aside>
+		</main>
+		<div class="clearfix"></div>
+		<footer></footer>
+	</div>
+</body>
+</html>

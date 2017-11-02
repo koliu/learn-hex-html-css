@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HTML、CSS教學</title>
+	<link rel="stylesheet" href="../css/meyer-reset.css">
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			font-family: Helvetica, 'Arial Black', 'LiHei Pro', '微軟正黑體', '新細明體', sans-serif;
+		}
+
+		.wrap {
+			width: 800px;
+			margin: 0 auto;
+		}
+
+
+		div .box1 { color: gray !important; }
+		#box1 { color: red; }
+		body div .box1 { color: green; }
+		.body div p { color: blue; }
+
+
+	</style>
+	<script type="text/javascript">
+		window.onload = function () {
+			document.getElementById("box1").style.cssText="color: yellow !important";
+			// document.getElementById("box1").style.color="yellow !important";
+		};
+	</script>
+</head>
+<body id="body" class="body">
+	<div id="wrap" class="wrap">
+		<main id="wrap1" class="wrap1">
+			<p id="box1" class="box1" style="color: orange">box1</p>
+			<p id="box2"  class="box2">box2</p>
+			<p id="box3"  class="box3">box3</p>
+		</main>
+	</div>
+	<input type="button" value="change css" onclick="changeCss()" />
+</body>
+</html>

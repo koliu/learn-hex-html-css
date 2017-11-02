@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Helvetica, 'Arial Black', 'LiHei Pro', '微軟正黑體', '新細明體', sans-serif;
+}
+
+.wrap {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.social-link {
+	background-color: #f6f6f6;
+	margin: 3px 0;
+	text-align: right;
+	height: 28px;
+	line-height: 28px;
+	color: #cccccc;
+}
+
+.fb, .twitter {
+	font-weight: 700;
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 3px;
+}
+
+.fb {
+	color: #4460a0;
+	margin-left: -3px;
+}
+
+.twitter {
+	color: #00aaec;
+	margin-left: -3px;
+}

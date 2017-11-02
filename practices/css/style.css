@@ -1,0 +1,44 @@
+body {
+	font-family: 微軟正黑體, Arial;
+}
+
+.title1 {
+	color: blue;
+}
+
+.desc {
+	text-indent: 32px;
+}
+
+.link {
+	color: red;
+}
+
+.link-hover:hover {
+	color: blue;
+}
+
+.title2, .title3, .title4 {
+	border-left: 3px solid red;
+	border-bottom: 3px solid red;
+}
+
+.logo {
+	border: 3px solid gray;
+	padding: 2.5em;
+}
+
+.logo:hover {
+	border-color: pink;
+}
+
+.line-height {
+	line-height: 1.5em;
+}
+
+.line-through {
+	text-decoration: line-through;
+}
+
+.a {color: red}
+.b {color: green}
